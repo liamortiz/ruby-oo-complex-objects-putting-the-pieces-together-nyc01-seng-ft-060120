@@ -24,3 +24,11 @@ def Shoe
   def condition
     @condition
   end
+  
+  def cobble
+    puts "The shoe has been repaired."
+    @condition = "new"
+  end
+  
+shoe = Shoe.new("Jordans")
+shoe.cobble
