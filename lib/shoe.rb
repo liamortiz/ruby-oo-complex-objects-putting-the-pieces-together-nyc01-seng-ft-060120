@@ -24,6 +24,10 @@ class Shoe
   def condition
     @condition
   end
+  def cobble
+    @condition = "new"
+    puts ""
+  end
 end
   
 shoe = Shoe.new("Jordans")
