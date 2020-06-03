@@ -29,6 +29,7 @@ def Shoe
     puts "The shoe has been repaired."
     @condition = "new"
   end
+end
   
 shoe = Shoe.new("Jordans")
 shoe.cobble
